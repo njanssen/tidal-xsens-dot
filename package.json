@@ -1,0 +1,23 @@
+{
+  "name": "tidal-xsens-dot",
+  "version": "1.0.0",
+  "description": "OSC/UDP glue for using Xsens DOT motion trackers with TidalCycles",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "prepare:prettier": "prettier --write '**/*.{ts,js,css,html}'"
+  },
+  "author": "Niels Janssen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/njanssen/tidal-xsens-dot/issues"
+  },
+  "homepage": "https://github.com/njanssen/tidal-xsens-dot#readme",
+  "dependencies": {
+    "@vliegwerk/tidal": "^1.6.1",
+    "@vliegwerk/xsens-dot": "https://github.com/njanssen/node-xsens-dot"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  }
+}
