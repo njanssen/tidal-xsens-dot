@@ -2,7 +2,9 @@ import xsensManager, { PAYLOAD_TYPE } from '@vliegwerk/xsens-dot'
 import Tidal from '@vliegwerk/tidal'
 
 const tidal = new Tidal({
-	outAddress: 'pro.local',
+	inAddress: '0.0.0.0',
+	outAddress: '192.168.3.146',
+	broadcast: false
 })
 
 tidal.on('ready', () => {

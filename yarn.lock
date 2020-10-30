@@ -90,12 +90,11 @@
   dependencies:
     debug "^4.1.1"
 
-"@vliegwerk/tidal@^1.6.1":
+"@vliegwerk/tidal@https://github.com/njanssen/node-tidal":
   version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@vliegwerk/tidal/-/tidal-1.6.1.tgz#52668aa8b8bb573f5232854b76e5930f3a28b1be"
-  integrity sha512-MZtcMQ/d/k1puKcn8VFvCBh/i3NLj/YAQluFul5Wq4D/rHmuXczkq6E4LEGrpeakVK2mHuentze4/nHUY6Doeg==
+  resolved "https://github.com/njanssen/node-tidal#177c0ccd8cc5a61979e0f45544e270c9651b72a9"
   dependencies:
-    osc "^2.3.1"
+    osc "^2.4.1"
 
 "@vliegwerk/xsens-dot@https://github.com/njanssen/node-xsens-dot":
   version "1.0.0"
@@ -542,7 +541,7 @@ os-tmpdir@^1.0.0:
   resolved "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
   integrity sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=
 
-osc@^2.3.1:
+osc@^2.4.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/osc/-/osc-2.4.1.tgz#b75f13024190e9b77fbad62391aeb22fc9de8e73"
   integrity sha512-3ZJjyqCoHh3J7K5jvXa+RKHHx6qML9hwqWhVk/YON9344QyjpRYdi+ljP8KMsFNTnVfoP82QNIiOkpL9J7mbzA==

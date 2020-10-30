@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/njanssen/tidal-xsens-dot#readme",
   "dependencies": {
-    "@vliegwerk/tidal": "^1.6.1",
+    "@vliegwerk/tidal": "https://github.com/njanssen/node-tidal",
     "@vliegwerk/xsens-dot": "https://github.com/njanssen/node-xsens-dot"
   },
   "devDependencies": {
