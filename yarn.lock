@@ -96,9 +96,10 @@
   dependencies:
     osc "^2.4.1"
 
-"@vliegwerk/xsens-dot@https://github.com/njanssen/node-xsens-dot":
+"@vliegwerk/xsens-dot@^1.0.0":
   version "1.0.0"
-  resolved "https://github.com/njanssen/node-xsens-dot#ecc4f9489e657e8ff8d3cdae678202584ad5d0f4"
+  resolved "https://registry.yarnpkg.com/@vliegwerk/xsens-dot/-/xsens-dot-1.0.0.tgz#bc248e8b1acb495eae58c25f1e52092e134df6a6"
+  integrity sha512-T7e39KNcD+p8bTxi/EH4SZL3sVx/ieloRmY1ycTwpQ4cdISp2USjrrltVImcpgA/TAzIS0nc0pCjHyt9n1t7wQ==
   dependencies:
     "@abandonware/noble" "^1.9.2-10"
     debug "^4.2.0"

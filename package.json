@@ -15,7 +15,7 @@
   "homepage": "https://github.com/njanssen/tidal-xsens-dot#readme",
   "dependencies": {
     "@vliegwerk/tidal": "https://github.com/njanssen/node-tidal",
-    "@vliegwerk/xsens-dot": "https://github.com/njanssen/node-xsens-dot"
+    "@vliegwerk/xsens-dot": "^1.0.0"
   },
   "devDependencies": {
     "prettier": "^2.1.2"
